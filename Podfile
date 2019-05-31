@@ -17,12 +17,14 @@ end
 target :ActionSheet do
   project 'ActionSheet/ActionSheet'
 
+  pod 'FeeRateKit.swift', git: 'https://github.com/ant013/blockchain-fee-rate-kit-ios'
   pod 'SnapKit', '~> 5.0'
 end
 
 target :HUD do
   project 'HUD/HUD'
 
+  pod 'FeeRateKit.swift', git: 'https://github.com/ant013/blockchain-fee-rate-kit-ios'
   pod 'SnapKit', '~> 5.0'
 end
 
